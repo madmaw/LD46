@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+      "module": "CommonJS",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "outDir": "build/",
+      "jsx": "preserve",
+      "jsxFactory": "Surplus",
+      "sourceMap": true,
+      "target": "es2015",
+  },
+  "include": [
+      "src/ts/**/*",
+      "node_modules/s-js/src/S.ts",
+      "node_modules/surplus/index.d.ts",
+      "node_modules/@types/**/*"
+  ],
+  "exclude": [
+  ]
+}

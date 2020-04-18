@@ -1,0 +1,23 @@
+{
+  "name": "jsjam_2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/matter-js": "^0.14.2",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-surplus": "^1.3.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "matter-js": "^0.14.2",
+    "s-js": "^0.4.9",
+    "surplus": "^0.5.3"
+  }
+}
